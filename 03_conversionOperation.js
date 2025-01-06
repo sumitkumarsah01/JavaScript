@@ -1,4 +1,4 @@
-let score="33";  //this value are string
+let score="33";  //this value are string.
 //console.log(typeof score);
 
 let valurInNumber=Number(score);

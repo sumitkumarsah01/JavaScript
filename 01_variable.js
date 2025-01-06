@@ -8,7 +8,7 @@ var vill="basantnager";
 
 // when define the variable let then user are change and re aasigned
 
-// var are not use because give issue globle scope and function scope
+// var are not use because give issue globle scope and function scope.
 
 console.log(bankAccount);
 console.log(name);
