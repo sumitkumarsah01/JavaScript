@@ -47,3 +47,14 @@ console.log(Object.keys(obj1));  // is return ik array hoga
 
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+const course={
+    courseName:"js in hindi",
+    price:"334",
+    courseinstructor:"hitesh"
+}
+
+const {courseinstructor: instructure}=course;
+//console.log(courseinstructor)
+console.log(instructure)
