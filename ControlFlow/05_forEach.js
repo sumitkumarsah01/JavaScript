@@ -41,6 +41,14 @@ const myObject=[
 
 
 myObject.forEach((item)=>{
-       console.log(item.language)
-       console.log(item.languagefilename)
+       //console.log(item.language)
+       //console.log(item.languagefilename)
 })
+
+
+const nums=[1,2,3,4,5,6,7,8,9,10];
+const myNew=nums.forEach((nums)=>{  // foreach loop koi value return nhi krta hai
+    return nums;
+})
+
+console.log(myNew)
