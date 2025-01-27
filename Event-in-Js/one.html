@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="images">
+        <li id="cat"><img src="Cat1.jpg" alt="cati"></li>
+        <li id="sumu"><img src="Cat2.jpg" alt="cati"></li>
+    </ul>
+</body>
+
+<script>
+    // document.querySelector('#cat').addEventListener('click',function(e){
+    //     alert("Music Bajega ji")
+    // }) 
+     
+
+    // click and remove
+    document.querySelector('#images').addEventListener('click',function(e){
+        console.log(e.target.tagName)
+        if(e.target.tagName==='IMG'){
+            let remoit=e.target.parentNode
+            remoit.remove()
+        }
+        
+    })
+</script>
+</html>
