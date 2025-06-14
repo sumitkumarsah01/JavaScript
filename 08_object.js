@@ -1,6 +1,11 @@
 // object literal
 
 
+//aagr object object literal se banta hai to singleton nhi banega 
+
+// aagr object constructure se banta hai to singleton banega 
+
+
 let mykey=Symbol("key1");
 
 const jsuser={
@@ -12,10 +17,12 @@ const jsuser={
     isLogged: false
 }
 
-//console.log(jsuser.name);
-//console.log(jsuser["location"]);
-console.log(jsuser);
+console.log(jsuser["full name"]);
+console.log(jsuser[mykey])
+console.log(jsuser.location);
+//console.log(jsuser);
 
 //object me hum change bhi kr sakte hai
+//jsuser.email="khushi@9u8.gamil.com"
 
-Object.freeze(jsuser); // is line ke baad hum koi change nhi kr sakte hai
+//Object.freeze(jsuser); // is line ke baad hum koi change nhi kr sakte hai

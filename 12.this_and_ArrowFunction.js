@@ -4,31 +4,32 @@ const user={
 
     welcomeMessage: function(){
         console.log(`${this.username},welcome to website`);  //(this) refer to the current context
-    }
+    },
+   
 }
-// user.welcomeMessage();
-// user.username="shubham"
-// user.welcomeMessage();
+ //user.welcomeMessage();
+  user.username="shubham"
+ //user.welcomeMessage();
 
 //console.log(this) // return blank cruly bracket
 
 
 function chai(){
     let username="lafariya"
-    console.log(this); // this function are not use (this keyword)
+    //console.log(this); // this function are not use (this keyword)
 }
 //chai()
 
 
 const chai1=function(){
     let username="lafariya"
-    console.log( this.username)
+    //console.log(this.username)
 }
-//chai1();
+chai1();
 
 const arrow=()=>{
     let name="sumit";
-    console.log(this)
+    //console.log(this)
 }
 arrow();
 

@@ -39,10 +39,10 @@ const obj5=[
     }
 ]
 
-//console.log(obj5[1].vill)
+//console.log(obj5[0].name)
 
 
-console.log(Object.keys(obj1));  // is return ik array hoga
+//console.log(Object.keys(obj1));  // is return ik array hoga
 // aise hi hum value bhi print krwa sakte hai
 
 
@@ -55,6 +55,6 @@ const course={
     courseinstructor:"hitesh"
 }
 
-const {courseinstructor: instructure}=course;
+const {price: instructure}=course;
 //console.log(courseinstructor)
 console.log(instructure)

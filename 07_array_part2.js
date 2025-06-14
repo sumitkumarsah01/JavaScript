@@ -17,12 +17,12 @@ const newmarvelsheros=[...marvel_heros,...dc_heros];
 
 
 const another_array=[1,2,3,[4,5,6],7,[6,7,[4,5]]];
-const real_another_array=another_array.flat(Infinity);
-console.log(real_another_array);
+//const real_another_array=another_array.flat(Infinity);
+//console.log(real_another_array);
 
 
-console.log(Array.isArray("hitesh"));
-console.log(Array.from("hitesh"));
+//console.log(Array.isArray("hitesh")); //check the given value array or not
+//console.log(Array.from("hitesh")); // tukra me kr deta ik ik letter ko
 
 
 

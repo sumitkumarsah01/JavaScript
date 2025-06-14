@@ -10,6 +10,8 @@ var vill="basantnager";
 
 // var are not use because give issue globle scope and function scope.
 
+// javascript me aagr khali variable define krke chod dete hai to usko print krne par output (undefined) aata hai
+
 console.log(bankAccount);
 console.log(name);
 console.log(vill);

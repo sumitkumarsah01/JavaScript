@@ -1,9 +1,9 @@
 const nums=[1,2,3,4,5,6,7,8,9,10];
 
-// const myNums=nums.filter((nums)=> {
-//      return nums>4;
-// } )
-// console.log(myNums)
+const myNums=nums.filter((nums)=> {
+     return nums>4;
+} )
+//console.log(myNums)
 
 const newNum=[]
 nums.forEach((num)=>{
@@ -26,10 +26,12 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let mybooks=books.filter((bk)=> { return bk.genre==='History'})
-  //console.log(mybooks);
+  let mybooks=books.filter((bk)=> {
+     return bk.genre==='History'
+})
+  console.log(mybooks);
 
    mybooks=books.filter((bk)=> { 
     return bk.publish>1985 && bk.genre==='Non-Fiction'
 })
-  console.log(mybooks);
+  //console.log(mybooks);

@@ -23,7 +23,7 @@ map.set('usa',"united states of america")
 map.set('fr',"Bihar")
 
 for (const [key,value] of map) {
-    //console.log(key);
+    console.log(key);
     //console.log(key,value);
 
     

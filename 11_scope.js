@@ -9,8 +9,8 @@ if (true) {
 
 
 
-// console.log(a);
-// console.log(b);
+//  console.log(a);
+//  console.log(b);
 // console.log(c);
 
 
@@ -21,13 +21,13 @@ function one(){
         const website = "youtube"
         console.log(username);
     }
-    // console.log(website);
+     //console.log(website);
 
      two()
 
 }
 
-// one()
+ one()
 
 if (true) {
     const username = "hitesh"
@@ -35,24 +35,24 @@ if (true) {
         const website = " youtube"
         // console.log(username + website);
     }
-    // console.log(website);
+     //console.log(website);
 }
 
-// console.log(username);
+ //console.log(username);
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+//console.log(addone(5))
 
 function addone(num){  // this is not give error
-    return num + 1
+    return num + 1;
 }
 
 // most important topic hoisting
-addTwo(5)
-const addTwo = function(num){ // this is called expression. this is given error because function are store the variable 
-    return num + 2
-}
+//addTwo(5)
+//const addTwo = function(num){ // this is called expression. this is given error because function are store the variable
+    //return num + 2
+//}
 
